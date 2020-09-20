@@ -20,17 +20,17 @@ const App = () => {
         <tr>  
           <th>ID</th>
           <th>Name</th>
-          ${columns.map((c) => c.columnName).join('\n')}
+          ${columns.map((c) => c.columnName).join('\n\t  ')}
         </tr>
         <tr>
           <td>1</td>
           <td>produkt 1</td>
-          ${columns.map((c) => c.randomData).join('\n')}
+          ${columns.map((c) => c.randomData).join('\n\t  ')}
         </tr>
         <tr>
           <td>2</td>
           <td>produkt 2</td>
-          ${columns.map((c) => c.randomData).join('\n')}
+          ${columns.map((c) => c.randomData).join('\n\t  ')}
         </tr>
       </table>
     </div>
